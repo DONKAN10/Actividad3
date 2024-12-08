@@ -23,6 +23,7 @@ mediaController.post("/media", validationCreateMedia(), async (req, res) => {
   }
 })
 
+
 // get all movies
 mediaController.get("/media", async (req, res) => {
   try {
